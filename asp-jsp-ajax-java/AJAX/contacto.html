@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="style.css" rel="stylesheet" type="text/css" media="screen"/>
+		<script src="js.js" type="text/javascript"></script>
+		<title>Neri Technology</title>
+	</head>
+	<body>
+		<div class="med">
+			<header id="cabecera">
+				<img title="Neri technology" src="./img/neri-technology-redc.png" alt="Logo"/>
+				<h1>Desarrollo y diseño de Páginas Web</h1>
+				</header>
+			
+		 
+			<nav id="menu">
+				<ul>
+					<li class="submenu">
+						<a href="index.html">Inicio</a>
+						<div class="submenu_contenido">
+							<div class="leyenda">
+								Página de inicio
+							</div>
+						</div>
+					</li>
+
+				<li class="submenu">
+
+						<a href="productos.html">Productos</a>
+						
+						<div class="submenu_contenido">
+							<div id="leyenda">
+								Productos disponibles
+							</div>
+							<a href="inicio.html">Inicio</a>
+							<a href="basico.html" >Basico</a>
+							<a href="avanzado.html">avanzado</a>
+						</div>
+					</li>
+
+				<li class="submenu">
+						<a href="compraproductos.html">Comprar</a>
+						<div class="submenu_contenido">
+							<div class="leyenda">
+								El mejor precio
+							</div>
+						</div>
+					</li>
+
+				
+
+				<li class="submenu">
+						<a href="servicios.html">Servicios</a>
+						<div class="submenu_contenido">
+							<div class="leyenda">
+								Servicios disponibles
+							</div>
+						</div>
+					</li>
+
+				<li class="submenu">
+						<a href="descargas.html">Descargas</a>
+						<div class="submenu_contenido">
+							<div class="leyenda">
+								Descarga los CMS mas destacados
+							</div>
+						</div>
+					</li>
+
+				<li class="submenu">
+						<a href="contacto.html">Contacto</a>
+						<div class="submenu_contenido">
+							<div class="leyenda">
+								Envíanos tu consulta
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		 
+			<div class="contenido_prod">
+				<h2>Formulario de contacto</h2> 
+					<div class="formulario">
+						<form action="mailto:oscar.gomez06@goumh.umh.es" method="post" enctype="text/plain">
+							<div>
+								<label for="empresa">Empresa / Organismo:</label>
+								<input type="text" id="empresa" name="empresa"/>
+								
+								<label for="persona">Persona de contacto:</label>
+								<input type="text" id="persona"  name="persona"/>
+								
+								<label for="email">E-mail:</label>
+								<input type="text" id="email" name="email"/>
+								
+								<label for="telefono">Teléfono:</label>
+								<input type="text" id="telefono" name="telefono"/>
+								
+								<label for="asunto">Mensaje:</label>
+								<textarea name="asunto" id="asunto" rows="5" cols="30"></textarea>
+								
+								<label for="conocido_tipo">Como nos conoció:</label>
+								<select name="conocido_tipo" id="conocido_tipo" size="1">
+									<option value="1">Google</option>
+									<option value="2" selected="selected">Terceras personas</option>
+									<option value="3">Email publicitario</option>
+								</select>
+								
+								<label for="interes">Areas de interés:</label>
+									<p><input type="checkbox" name="interes" id="interes" value="hard"/>Hardware</p>
+									<p><input type="checkbox" name="interes" id="interes_1" value="soft" checked="checked"/>Software</p>
+									<p><input type="checkbox" name="interes" id="interes_2" value="RedIna"/>Redes inalámbricas</p>
+								
+								<label for="cliente">Cliente</label>
+									<p><input type="radio" name="cliente" id="cliente" value="particular" checked="checked"/>Particular</p>
+									<p><input type="radio" name="cliente" id="cliente" value="empresa"/>Empresa</p>
+								<label for="publicidad">¿Desea recibir publicidad sobre nuestros productos?:</label>
+									<p><input type="checkbox" name="publicidad" id="publicidad_1" value="si" />Si</p>
+									<p><input type="checkbox" name="publicidad" id="publicidad" value="no" checked="checked"/>No</p>
+								
+								
+								<input type="submit" value="Enviar"/>
+							</div>
+						</form>
+					</div>
+			</div>
+		 <div class="footer">
+				<p>
+					Grupo San Felipe Technology, S.L
+					CIF:B54970413	
+					<br>
+					Telf: 965 48 46 68				
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
