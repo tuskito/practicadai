@@ -1,6 +1,3 @@
 # PHP
  
- 
- PRÁCTICA 2 
- 
- DAI: PHP y MySQL
+Aplicaciones Web con ASP, JSP, Ajax y Java Applets
